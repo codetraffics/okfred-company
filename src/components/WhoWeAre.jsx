@@ -42,7 +42,7 @@ const WhoWeAre = () => {
         </p>
       </div>
       <div>
-        <div className="bg-secondary-bg p-5 lg:p-10 rounded-3xl">
+        <div className="bg-secondary-bg p-5  rounded-3xl">
           <img
             src={photos[currentPhotoIndex]}
             className="rounded-xl"
