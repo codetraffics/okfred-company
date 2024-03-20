@@ -51,28 +51,28 @@ export const counters = [
 
 export const services = [
   {
-    id: "0010",
+    id: "1",
     imgUrl: station,
     title: "fuel",
     subtitle: "fuel stations",
     desc: "We offer scheduled deliveries at your convenience and an optional upgrade to fuel tank monitoring. Customers may place their orders online or by calling our sales team directly. Please place orders at least 24 hours in advance.",
   },
   {
-    id: "0020",
+    id: "2",
     imgUrl: mining,
     title: "mining",
     subtitle: "small scale mining companies",
     desc: "Tired of running out of fuel on site? Let us do it for you. Sign up with Okfred today! We will make sure you never run out of fuel. Buy your fuel and have it delivered to your own storage tanks",
   },
   {
-    id: "001",
+    id: "3",
     imgUrl: construction,
     title: "construction",
     subtitle: "construction companies",
     desc: "Regardless of the client, project size, or fleet size, one thing stays consistent for every construction operation: fuel consumption. Buy your fuel and have it delivered to your own storage tanks directly.",
   },
   {
-    id: "002",
+    id: "4",
     imgUrl: industrial,
     title: "industry",
     subtitle: "industrial companies",
