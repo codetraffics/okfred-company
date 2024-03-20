@@ -10,22 +10,22 @@ import delivery from "../assets/delivery.svg";
 
 export const navigation = [
   {
-    id: "0",
+    id: "0000",
     title: "Home",
     url: "#home",
   },
   {
-    id: "1",
+    id: "0001",
     title: "About",
     url: "#about",
   },
   {
-    id: "2",
+    id: "0002",
     title: "Services",
     url: "#services",
   },
   {
-    id: "3",
+    id: "0003",
     title: "Contact",
     url: "#contact",
   },
@@ -33,17 +33,17 @@ export const navigation = [
 
 export const counters = [
   {
-    id: "00",
+    id: "00000",
     number: "Cost-Effective Fueling Solutions",
     text: "Bulk fuel purchasing offers a cost-effective alternative to frequent refueling. You gain access to favorable pricing.",
   },
   {
-    id: "01",
+    id: "00001",
     number: "Same Day Service Availabilities",
     text: "Business doesn’t sleep, and neither should your access to fuel. Our Bulk Fuel services ensure around-the-clock availability.",
   },
   {
-    id: "02",
+    id: "00002",
     number: "Environmetal Responsibilities",
     text: "Our Bulk Fuel services align with sustainable practices. Reduce your carbon footprint with our eco-friendly fueling solutions.",
   },
@@ -51,20 +51,19 @@ export const counters = [
 
 export const services = [
   {
-    id: "001",
+    id: "0010",
     imgUrl: station,
     title: "fuel",
     subtitle: "fuel stations",
     desc: "We offer scheduled deliveries at your convenience and an optional upgrade to fuel tank monitoring. Customers may place their orders online or by calling our sales team directly. Please place orders at least 24 hours in advance.",
   },
   {
-    id: "002",
+    id: "0020",
     imgUrl: mining,
     title: "mining",
     subtitle: "small scale mining companies",
     desc: "Tired of running out of fuel on site? Let us do it for you. Sign up with Okfred today! We will make sure you never run out of fuel. Buy your fuel and have it delivered to your own storage tanks",
   },
-  // Think about it: you buy fuel and have it either delivered to your own storage tanks or to your fuel trucks directly. You know the volumes purchased and the cost. So far so good. If you have a pump control system in place complemented by an electronic tank gauge, then you are also on top of fueling operations in your yard(s). That is great.
   {
     id: "001",
     imgUrl: construction,
@@ -83,25 +82,25 @@ export const services = [
 
 export const features = [
   {
-    id: "00",
+    id: "0100",
     imgUrl: dollar,
     title: "efficient with affordable prices",
     desc: "Bulk fuel purchasing offers a cost-effective alternative to frequent refueling.",
   },
   {
-    id: "01",
+    id: "0200",
     imgUrl: delivery,
     title: "fast, dependable delivery",
     desc: "Okfred will deliver fuel to you anywhere. From refilling a single vehicle, to an entire fleet.",
   },
   {
-    id: "02",
+    id: "0300",
     imgUrl: customer,
     title: "top notch customer service",
     desc: "We pride ourselves on providing fast and courteous customer service.",
   },
   {
-    id: "03",
+    id: "0400",
     imgUrl: payment,
     title: "flexible billing options",
     desc: "Pay over the phone with your credit or debit card or pay with a check on delivery.",
@@ -110,19 +109,19 @@ export const features = [
 
 export const clients = [
   {
-    id: "001",
+    id: "1000",
     title: "Fuel Stations",
   },
   {
-    id: "002",
+    id: "2000",
     title: "Small Scale Mining Companies",
   },
   {
-    id: "003",
+    id: "3000",
     title: "Industrial Companies",
   },
   {
-    id: "004",
+    id: "4000",
     title: "Individual Homes",
   },
 ];

@@ -1,15 +1,15 @@
-import ceo from "../assets/ceo.jpg";
+import contact from "../assets/contact.png";
 
 const Contact = () => {
   return (
-    <section className="m-10 md:m-20" id="contact">
+    <section className="mx-10 my-20 md:my-32 md:mx-20" id="contact">
       <div className="lg:flex space-y-10 md:space-x-20 mb-10 md:mb-20">
         <div
           className="lg:w-2/5"
           data-aos="fade-up-right"
           data-aos-duration="1500"
         >
-          <img src={ceo} />
+          <img src={contact} />
         </div>
 
         <div
@@ -33,11 +33,11 @@ const Contact = () => {
             fuel is managed.
           </p>
           <div className="text-lg text-secondary-text font-semibold">
-            <p>+233 50000000000</p>
-            <p>+233 50000000000</p>
+            <p>+233 24 125 1283</p>
+            <p>+233 20 543 5183</p>
           </div>
           <a
-            href="tel:123-456-7890"
+            href="tel:+233241251283"
             className="p-4 bg-primary-color w-[150px] text-white rounded-md"
           >
             contact us
@@ -50,9 +50,9 @@ const Contact = () => {
         width="100%"
         height="450"
         // style="border:0;"
-        allowfullscreen=""
+        // allowfullscreen=""
         loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
+        referrerPolicy="no-referrer-when-downgrade"
       ></iframe>
     </section>
   );

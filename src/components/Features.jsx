@@ -16,7 +16,10 @@ const Features = () => {
         </div>
         <div className="lg:flex justify-around">
           {features.map((feature) => (
-            <div className="flex flex-col lg:w-[200px] text-base space-y-5 text-center items-center">
+            <div
+              className="flex flex-col lg:w-[200px] text-base space-y-5 text-center items-center"
+              key={feature.id}
+            >
               <img src={feature.imgUrl} className="w-[80px]" alt="" />
               <h4 className="text-secondary-text text-base uppercase font-semibold">
                 {feature.title}

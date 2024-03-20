@@ -3,28 +3,23 @@ import { services } from "../constants";
 
 const Services = () => {
   return (
-    <section className="m-10 md:m-20" id="services">
+    <section className="mx-10 my-20 md:my-32 md:mx-20" id="services">
       <div className="flex gap-20 flex-col">
-        <div className="space-y-4" data-aos="zoom-in" data-aos-duration="1500">
+        <div className="space-y-4">
           <div className="flex space-x-4 items-center">
             <div className="border h-0 border-primary-color w-10"></div>
             <h4 className="uppercase text-secondary-text font-semibold text-[10px]">
               Services
             </h4>
           </div>
-          <h2 className="text-xl md:text-3xl text-secondary-text capitalize">
-            We accommodate all orders including mobile tank refueling and heavy
-            equipment as well. Same day fuel delivery service is available!
-          </h2>
-          <p className="text-lg text-primary-text text-justify">
-            Okfred Company consistently provides reliable service you can count
-            on from a professional and experienced team. We maintain a central
-            dispatch in Kumasi, extensive coverage to all surrounding cities,
-            throughout Ashanti Region. Our Fuel Delivery Professionals are
-            trained in strict environmental standards and can refuel your
-            equipment after hours or overnight, and can operate in extreme
-            temperatures. Our refueling services are safe, simple and cost
-            effective.
+
+          <p className="text-secondary-text text-justify my-10 md:w-4/5 text-lg lg:text-[22px] leading-relaxed font-semibold">
+            In a world that never stops moving, your business needs a fuel
+            solution that keeps pace. At Okfred, we are more than just a fuel
+            delivery service – we are your partner in uninterrupted operations
+            and seamless efficiency. Discover the unparalleled benefits of our
+            Fuel Delivery Service and why we stand out as the preferred choice
+            for businesses like yours.
           </p>
         </div>
 
@@ -33,7 +28,7 @@ const Services = () => {
           <DualContent
             key={service.id}
             imgUrl={service.imgUrl}
-            className={`mb-5 h-auto  w-full md:mb-0 ${
+            className={`mb-5 h-auto rounded-xl w-full md:mb-0 ${
               service.id % 2 === 0 ? "order-last" : ""
             }`}
             title={service.title}

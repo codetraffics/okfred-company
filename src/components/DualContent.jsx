@@ -12,11 +12,7 @@ const DualContent = ({ imgUrl, title, subtitle, desc, className, id }) => {
         data-aos-duration="1500"
       />
 
-      <div
-        className="space-y-4 flex flex-col justify-center"
-        data-aos="zoom-in-down"
-        data-aos-duration="1500"
-      >
+      <div className="space-y-4 flex flex-col justify-center">
         <div className="flex space-x-4 items-center">
           <div className="border h-0 border-primary-color w-10"></div>
           <h4 className="uppercase text-secondary-text font-semibold text-[10px]">

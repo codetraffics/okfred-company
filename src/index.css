@@ -12,6 +12,10 @@ nav {
   z-index: 10001 !important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .overlay:before {
   content: "";
   position: absolute;
