@@ -12,9 +12,9 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const App = () => {
-  // useEffect(() => {
-  //   AOS.init();
-  // }, []);
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   return (
     <div className="bg-primary-bg">
