@@ -5,11 +5,11 @@ const Contact = () => {
     <section className="mx-10 my-20 md:my-32 md:mx-20" id="contact">
       <div className="lg:flex space-y-10 md:space-x-20 mb-10 md:mb-20">
         <div
-          className="lg:w-2/5"
+          className="lg:w-2/5 max-w-full my-0 mx-auto"
           data-aos="fade-up-right"
           data-aos-duration="1500"
         >
-          <img src={contact} />
+          <img src={contact} className="m-full h-auto block" />
         </div>
 
         <div

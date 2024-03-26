@@ -1,5 +1,8 @@
-import DualContent from "./DualContent";
+import { BeatLoader } from "react-spinners";
 import { services } from "../constants";
+import { Suspense, lazy } from "react";
+
+const DualContent = lazy(() => import("./DualContent"));
 
 const Services = () => {
   return (
@@ -25,16 +28,20 @@ const Services = () => {
 
         {/* Map Over Serice Items */}
         {services.map((service) => (
-          <DualContent
-            key={service.id}
-            imgUrl={service.imgUrl}
-            className={`mb-5 h-auto rounded-xl w-full md:mb-0 ${
-              service.id % 2 === 0 ? "order-last" : ""
-            }`}
-            title={service.title}
-            subtitle={service.subtitle}
-            desc={service.desc}
-          />
+          <Suspense
+            fallback={<BeatLoader className="text-center" color="#36d7b7" />}
+          >
+            <DualContent
+              key={Math.floor(Math.random() * 100)}
+              imgUrl={service.imgUrl}
+              className={`mb-5 h-auto rounded-xl w-full md:mb-0 block ${
+                service.id % 2 === 0 ? "order-last" : ""
+              }`}
+              title={service.title}
+              subtitle={service.subtitle}
+              desc={service.desc}
+            />
+          </Suspense>
         ))}
       </div>
     </section>

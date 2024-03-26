@@ -11,11 +11,10 @@ export default {
         "primary-text": "#949494",
         "secondary-text": "#013025",
       },
+
       backgroundImage: {
-        "banner-image":
-          "url('https://i.ibb.co/5kgX4tF/erik-mclean-Vt-HK0-R6s-ARg-unsplash.jpg')",
-        "count-image":
-          "url('https://i.ibb.co/Fznvznr/billy-freeman-nkx-B5-Ab-ONY-unsplash.jpg')",
+        "banner-image": "url('https://i.ibb.co/n6khD6m/banner.webp')",
+        "count-image": "url('https://i.ibb.co/mvdTPwr/count.webp')",
       },
     },
   },

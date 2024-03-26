@@ -1,5 +1,3 @@
-import React from "react";
-
 const Banner = () => {
   return (
     <div
@@ -23,7 +21,6 @@ const Banner = () => {
           We take fuel forward - making it safer, cleaner, and more efficient
           for people and the planet.
         </p>
-        {/* <Button /> */}
       </div>
     </div>
   );

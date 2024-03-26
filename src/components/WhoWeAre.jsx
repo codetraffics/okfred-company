@@ -1,27 +1,6 @@
-import { useState } from "react";
-
-const photos = [
-  "https://i.ibb.co/5GRXSb5/IMG-20240228-WA0017-1.jpg",
-  "https://i.ibb.co/2s6YrXS/IMG-20240310-WA0009-1.jpg",
-  "https://i.ibb.co/1rympQK/ceo-1.jpg",
-  "https://i.ibb.co/kJ1KVQ7/IMG-20240310-WA0007-1.jpg",
-];
+import ceo from "../assets/ceo2.webp";
 
 const WhoWeAre = () => {
-  const [currentPhotoIndex, setCurrentPhotoIndex] = useState(0);
-
-  const handlePrevClick = () => {
-    if (currentPhotoIndex > 0) {
-      setCurrentPhotoIndex(currentPhotoIndex - 1);
-    }
-  };
-
-  const handleNextClick = () => {
-    if (currentPhotoIndex < photos.length - 1) {
-      setCurrentPhotoIndex(currentPhotoIndex + 1);
-    }
-  };
-
   return (
     <div className="grid md:grid-cols-2 mb-10 md:gap-x-10 lg:gap-x-20 space-y-10">
       <div className="space-y-4 flex flex-col justify-center">
@@ -42,26 +21,8 @@ const WhoWeAre = () => {
         </p>
       </div>
       <div>
-        <div className="bg-secondary-bg p-5  rounded-3xl">
-          <img
-            src={photos[currentPhotoIndex]}
-            className="rounded-xl"
-            alt="Current photo"
-          />
-        </div>
-        <div className="justify-around flex mt-4">
-          <button
-            onClick={handlePrevClick}
-            className="bg-primary-color py-2 px-5 rounded-xl uppercase text-white"
-          >
-            Prev
-          </button>
-          <button
-            onClick={handleNextClick}
-            className="bg-primary-color py-2 px-5 rounded-xl uppercase text-white"
-          >
-            Next
-          </button>
+        <div className="max-w-full my-0 mx-auto">
+          <img src={ceo} className="w-full h-auto block" alt="Current photo" />
         </div>
       </div>
     </div>

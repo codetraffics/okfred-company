@@ -1,7 +1,7 @@
-import station from "../assets/fuelstation.jpg";
-import mining from "../assets/mining.jpg";
-import construction from "../assets/construction.jpg";
-import industrial from "../assets/industrial.jpg";
+import station from "../assets/fuelstation2.webp";
+import mining from "../assets/mining2.webp";
+import construction from "../assets/construction2.webp";
+import industrial from "../assets/industrial2.webp";
 
 import dollar from "../assets/dollar.svg";
 import payment from "../assets/payment.svg";

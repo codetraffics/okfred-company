@@ -1,5 +1,3 @@
-import Button from "./Button";
-import { IoMdArrowDown } from "react-icons/io";
 import WhoWeAre from "./WhoWeAre";
 
 const About = () => {
@@ -12,7 +10,7 @@ const About = () => {
         </h4>
       </div>
 
-      <p className="text-secondary-text text-justify my-10 md:w-4/5 text-lg lg:text-[22px] leading-relaxed font-semibold">
+      <p className="text-secondary-text text-justify my-10 text-lg lg:text-[22px] leading-relaxed font-semibold">
         Okfred Company Ltd was established in August 2018, head-quartered in
         Kumasi with Branches in Tema and Sunyani. Okfred has a presence in over
         10 major regions in Ghana due to our partnership with Oil Marketing

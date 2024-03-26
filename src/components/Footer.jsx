@@ -1,6 +1,6 @@
 import { navigation, clients } from "../constants";
 import { FaLinkedin } from "react-icons/fa6";
-import logo from "../assets/logomain.jpg";
+import logo from "../assets/logomain.webp";
 
 const Footer = () => {
   return (

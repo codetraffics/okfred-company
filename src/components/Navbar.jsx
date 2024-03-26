@@ -2,8 +2,7 @@ import { navigation } from "../constants";
 import { FaXmark } from "react-icons/fa6";
 import { FaBars } from "react-icons/fa";
 import { useState } from "react";
-import logo from "../assets/logomain.jpg";
-import { Link } from "react-scroll";
+import logo from "../assets/logomain.webp";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,7 +16,6 @@ const Navbar = () => {
       <nav className="md:px-14 py-2 p-4 mx-auto fixed bg-primary-bg top-0 right-0 left-0">
         {/* ========== DESKTOP NAVIGATION ========== */}
         <div className="text-xl font-medium container mx-auto flex justify-between lg:justify-evenly items-center">
-          {/* Logo */}
           <div>
             <a href="/">
               <img
@@ -33,10 +31,6 @@ const Navbar = () => {
             <ul className="lg:flex hidden space-x-12">
               {navigation.map(({ id, title, url }) => (
                 <a
-                  // activeClass="active"
-                  // spy={true}
-                  // smooth={true}
-                  // offset={-100}
                   key={id}
                   href={url}
                   className="block text-primary-text hover:text-secondary-text text-base font-normal"
@@ -68,10 +62,6 @@ const Navbar = () => {
       >
         {navigation.map(({ id, title, url }) => (
           <a
-            // activeClass="active"
-            // spy={true}
-            // smooth={true}
-            // offset={-80}
             key={id}
             href={url}
             className="block text-white"

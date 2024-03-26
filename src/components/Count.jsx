@@ -2,7 +2,7 @@ import { counters } from "../constants";
 
 const Count = () => {
   return (
-    <div className="bg-count-image w-full bg-cover relative bg-second-bg overlay bg-no-repeat bg-center h-80 lg:h-[36rem]">
+    <div className="bg-count-image w-full bg-cover relative bg-second-bg overlay bg-no-repeat bg-center h-96 lg:h-[36rem]">
       <div className="absolute p-10 md:p-14 text-white text-base space-y-20 xl:space-y-32">
         <div
           className="space-y-5"
